@@ -35,7 +35,8 @@
 		table { border-collapse: collapse !important; }
 		body { margin: 0 !important; padding: 0 !important; width: 100% !important; }
 			h1, h2, h3, h4, h5, h6, p { margin: 0 !important; -webkit-font-smoothing: antialiased !important;}
-		bold {font-weight: 900}
+		bold {font-weight: 700}
+		bolder {font-weight: 400}
 			
 		/* HIDE ON DESKTOP */
 			.desktopOff { max-height: 0px; font-size: 0px; display: none; }
@@ -131,15 +132,15 @@
 			.l-pad { padding-left: 25px !important; }
 			.w-pad2 { padding: 0 10px !important; }
 			/*TEXT RESIZERS*/
-			p { font-size:14px !important; line-height:1.6 !important; }
 			.h1-text-resize { font-size:45px !important; line-height:1.2 !important; text-align: left !important; margin-left: 10px !important;}
 			.h2-text-resize { font-size:18px !important; line-height:1.2 !important; }
 			.h3-text-resize { font-size:16px !important; line-height:1.2 !important; }
 			.body-text-resize { font-size:14px !important; line-height:1.2 !important; }
-			.intro-text-resize { font-size:16px !important; line-height:1.8 !important; font-weight: 400 !important; text-align: left !important; margin-left: 10px !important; margin-right: 15px !important; padding-bottom: 10px !important; }
+			.intro-text-resize { font-size:18px !important; line-height:1.4 !important; font-weight: 400 !important; text-align: left !important; margin-left: 10px !important; margin-right: 15px !important;}
+			.lower-text-resize { font-size:16px !important; line-height:1.6 !important; font-weight: 400 !important; text-align: left !important; margin-left: 10px !important; margin-right: 15px !important;}
 			.calendar-text-resize { font-size:20px !important; line-height:1.2 !important; font-weight: 400 !important; text-align: left !important; margin-left: 10px !important;}
 			.small-text-resize { font-size:16px !important; line-height:1.6 !important; }
-			.smallText { font-size:10px !important; line-height:1.8 !important; font-weight: 400 !important; text-align: left !important; margin-left: 10px !important; margin-right: 15px !important; padding-bottom: 10px !important; }
+			bolder {font-size:20px !important; line-height:2 !important;}
 			/*IMAGE RESIZERS*/
 			.imgresize100 img {width:100% !important; height:auto !important;}
 			.imgresize100h img {height:40px !important; width:auto !important;}
@@ -240,7 +241,7 @@
 						<table class="mobile-300" role="presentation" width="600" cellpadding="0" cellspacing="0" border="0">
 							<tr>
 								<td align="center" valign="top">
-									<h1 class="h1-text-resize" style="font-family: 'farnham headline', Georgia, serif; font-weight: 400; font-size: 50px; line-height: 1; color: #ffffff;">Get&nbsp;your taxes&nbsp;ready</h1>
+																		<h1 class="h1-text-resize" style="font-family: 'farnham headline', Georgia, serif; font-weight: 400; font-size: 50px; line-height: 1; color: #ffffff;">Get&nbsp;your taxes&nbsp;ready</h1>
 								</td>
 							</tr>
 
@@ -250,14 +251,14 @@
 									</tr>
 						</table>
 					<!-- ALIGNMENT TABLE - CHANGE width="" TO ADJUST DISPLAY WIDTH -->
-						<table class="mobile-300" role="presentation" width="500" cellpadding="0" cellspacing="0" border="0">
+						<table class="mobile-300" role="presentation" width="600" cellpadding="0" cellspacing="0" border="0">
 							<tr>
 								<td align="center" valign="top">
 									<p class="intro-text-resize" style="font-family: Helvetica, sans-serif; font-weight: 200; font-size: 16px; line-height: 2; color: #66ffff; padding-bottom: 10px;"><strong>SPECIAL REPORT ONLINE </strong></p> 
-									<p class="intro-text-resize" style="font-family: Helvetica, sans-serif; font-weight: 400; font-size: 20px; line-height: 2; color: #ffffff;"><bold>Did you miss our Tax Prep guide?</bold> <br>Get preparation tips, tricks, a checklist, and much more.</p> 
-									<!-- BLANKED OUT 
-									<p class="intro-text-resize" style="font-family: Helvetica, sans-serif; font-weight: 400; font-size: 20px; line-height: 2; color: #ffffff;">Find the section in The Ann Arbor News online archive.</p> 
-									<p class="intro-text-resize" style="font-family: Helvetica, sans-serif; font-weight: 400; font-size: 16px; line-height: 2; color: #ffffff;"><em>Look for the Update section in the Sunday, Feb. 11 edition.</em></p> -->
+									<p class="intro-text-resize" style="font-family: Helvetica, sans-serif; font-weight: 400; font-size: 20px; line-height: 2; color: #ffffff;"><bold>Did you miss our Tax Prep guide?</bold> <br class="mobileOff">Get preparation tips, tricks, a checklist, and much more.</p>
+											</td>
+										</tr>
+
 								</td>
 							</tr>
 							<!-- MOBILE/DESKTOP SPECIFIC SPACER -->
@@ -320,7 +321,7 @@
 							<!-- BODY TEXT 01 -->
 									<tr>
 										<td class="left-align w-padText" align="left" valign="top">
-											<p class="" style="font-family: Helvetica, sans-serif; font-weight: 500; font-size: 16px; line-height: 1.5; color: #ffffff;">The daily after-deadline section of the Ann Arbor News online, available at no additional cost.</p>
+											<p class="" style="font-family: Helvetica, sans-serif; font-weight: 500; font-size: 16px; line-height: 1.5; color: #ffffff;">The daily after-deadline section of The Ann Arbor News online, available at no additional cost.</p>
 										</td>
 									</tr>
 								<!-- ROW SPACER -->
@@ -360,69 +361,76 @@
 								<table class="w-resize90 " width="100%" border="0" cellspacing="0" cellpadding="12">
 								<tbody><tr>
 								<td class="w-resize-button effect effect-2" align="left" 
-								style="font-family:Helvetica, sans-serif; font-size:18px;font-weight: 400;color:#f94040; display:block;vertical-align:middle; -webkit-text-size-adjust: none; padding:9px 0px 9px 12px; background-color: #f94040; ">
-								<a href="https://myaccount.mlive.com" target="_blank" style="color:#000000; text-decoration:none; display:inline-block; width:100%">Activate!</a>
+								style="font-family:Helvetica, sans-serif; font-size:18px;font-weight: 400;color:#ffffff; display:block;vertical-align:middle; -webkit-text-size-adjust: none; padding:9px 0px 9px 12px; background-color: #f94040; ">
+								<a href="https://myaccount.mlive.com" target="_blank" style="color:#000000; text-decoration:none; display:inline-block; width:100%">Activate!</a>				</style>
 								</td>
 								</tr>
 								</tbody></table>
 								<!-- BULLETPROOF BUTTON -->
-							</tr>
-						</tr>
-						</tbody></table>
-						<!-- END BODY TEXT 02 -->
-						<!-- BODY TEXT 03 -->
-				  <table class="mobile-280 w-pad" width="200" border="0" cellspacing="0" cellpadding="0" align="center">
-								<!-- ROW SPACER -->
-								<tr>
-									<td height="30" style="font-size:10px; line-height:1;">&nbsp;</td>
-								</tr>		
-					<tbody>
-						
-					  <tr>
-							<td class="left-align" align="left" style="font-family: Helvetica, sans-serif; font-size:20px; font-weight: 500; color:#66ffff; -webkit-text-size-adjust: none;">
-								Already have a login?
 							</td>
 						</tr>
-					  <tr>
-								<!-- ROW SPACER -->
-								<tr>
-									<td height="10" style="font-size:10px; line-height:1;">&nbsp;</td>
-								</tr>						
-					 
-								<tr>
-									<td class="left-align w-padText" align="left" valign="top">
-										<p class="textMode" style="font-family: Helvetica, sans-serif; font-weight: 500; font-size: 16px; line-height: 1.5; color: #66ffff;">See Tax Prep '24 in the Update section of The Ann Arbor News Online.</p>
+						<tr>
+						<td style="font-size:0px; line-height:0px" height="20">&nbsp;</td>
+					<!-- MOBILE-ONLY SPACER: ADDS SPACE ABOVE HEADLINE -->
+					<tr>
+						<td class="desktopOff mobileOn" height="10" style="font-size:10px; line-height:1;">&nbsp;</td>
+					</tr>
+					<!-- MOBILE-ONLY SPACER: ADDS SPACE ABOVE HEADLINE -->
+					<tr>
+						<td height="10" style="font-size:10px; line-height:1;">&nbsp;</td>
+					</tr>
+					</tr>
+					</tbody></table>
+					<!-- END BODY TEXT 02 -->
+						<!-- BODY TEXT 03 -->
+						<table class="mobile-280 w-pad" width="200" border="0" cellspacing="0" cellpadding="0" align="center">	
+							<tbody>
+								
+							  <tr>
+									<td class="left-align" align="left" style="font-family: Helvetica, sans-serif; font-size:20px; font-weight: 500; color:#66ffff; -webkit-text-size-adjust: none;">
+										Already have a login?
 									</td>
 								</tr>
-							<!-- ROW SPACER -->
-								<tr>
-									<td height="10" style="font-size:10px; line-height:1;">&nbsp;</td>
+							  <tr>
+										<!-- ROW SPACER -->
+										<tr>
+											<td height="10" style="font-size:10px; line-height:1;">&nbsp;</td>
+										</tr>						
+							 
+										<tr>
+											<td class="left-align w-padText" align="left" valign="top">
+												<p class="textMode" style="font-family: Helvetica, sans-serif; font-weight: 500; font-size: 16px; line-height: 1.5; color: #66ffff;">See The Ann Arbor News Online.<em class="mobileOff">Click here.</em></p>
+											</td>
+										</tr>
+									<!-- ROW SPACER -->
+										<tr>
+											<td height="10" style="font-size:10px; line-height:1;">&nbsp;</td>
+										</tr>
+								<td align="left">
+										<style>.effect.effect-2 {transition: all 0.2s linear 0s; &:before {content: "➜"; align-items: center; justify-content: center; display: flex; position: absolute; top: 0;right: -50px; width: 50px; height: 100%; background-color: #3636365e; transition: all 0.2s linear 0s;} &:hover {text-indent: 0px; &:before {right: 0; text-indent: 0px;}}}
+										.effect {text-align: left; display: inline-block; position: relative;text-decoration: none;overflow: hidden;}
+										</style>
+								<!-- BULLETPROOF BUTTON -->
+								<table class="w-resize90 " width="100%" border="0" cellspacing="0" cellpadding="12">
+								<tbody><tr>
+								<td class="w-resize-button effect effect-2" align="left" 
+								style="font-family:Helvetica, sans-serif; font-size:18px;font-weight: 400;color:#66ffff; display:block;vertical-align:middle; -webkit-text-size-adjust: none; padding:9px 0px 9px 12px; background-color: #66ffff; ">
+								<a href="https://enewsAA.mlive.co" target="_blank" style="color:#000000; text-decoration:none; display:inline-block; width:100%">Explore!</a>
+								</td>
 								</tr>
-						<td align="left">
-								<style>.effect.effect-2 {transition: all 0.2s linear 0s; &:before {content: "➜"; align-items: center; justify-content: center; display: flex; position: absolute; top: 0;right: -50px; width: 50px; height: 100%; background-color: #3636365e; transition: all 0.2s linear 0s;} &:hover {text-indent: 0px; &:before {right: 0; text-indent: 0px;}}}
-								.effect {text-align: left; display: inline-block; position: relative;text-decoration: none;overflow: hidden;}
-								</style>
-						<!-- BULLETPROOF BUTTON -->
-						<table class="w-resize90 " width="100%" border="0" cellspacing="0" cellpadding="12">
-						<tbody><tr>
-						<td class="w-resize-button effect effect-2" align="left" 
-						style="font-family:Helvetica, sans-serif; font-size:18px;font-weight: 400;color:#66ffff; display:block;vertical-align:middle; -webkit-text-size-adjust: none; padding:9px 0px 9px 12px; background-color: #66ffff; ">
-						<a href="https://enewsaa.mlive.com/data/44808/reader/reader.html?t=1708548829308#!preferred/0/package/44808/pub/75601/page/57" target="_blank" style="color:#000000; text-decoration:none; display:inline-block; width:100%">See Tax Prep '24</a>
-						</td>
+								</tbody></table>
+								<!-- BULLETPROOF BUTTON -->
+								</td>
+							</tr>
+							<tr>
+							<td style="font-size:0px; line-height:0px" height="10">&nbsp;</td>
 						</tr>
 						</tbody></table>
-						<!-- BULLETPROOF BUTTON -->
-						</td>
-					</tr>
-					<tr>
-					<td style="font-size:0px; line-height:0px" height="10">&nbsp;</td>
-				</tr>
-				</tbody></table>
-						<!-- ROW SPACER -->
-						<tr>
-							<td height="10" style="font-size:20px; line-height:1;">&nbsp;</td>
-						</tr>
-				<!-- END BODY TEXT 03 -->
+								<!-- ROW SPACER -->
+								<tr>
+									<td height="10" style="font-size:20px; line-height:1;">&nbsp;</td>
+								</tr>
+						<!-- END BODY TEXT 03 -->
 
 <!-- !!!!!! START EMAIL REMINDER COMPONENT !!!!!! -->
  <!-- To activate, paste this '>' at the end of this line --
@@ -470,24 +478,28 @@
 		 </table>
 
 <!-- END FULL WIDTH CALENDAR -->
-<table class="mobile-300" role="presentation" width="640" cellpadding="0" cellspacing="0" border="0">
-    <tr>
-        <td align="center" valign="top">
-            <p class="smallText" style="font-family: Helvetica, sans-serif; font-weight: 400; font-size: 12px; line-height: 1.4; color: #ffffff;">Find the section in  
-            <a rel="noopener" href="{view_url}" target="_blank" class="smallText"  style="color:#ffffff; text-decoration:underline;"><nobr>The Ann Arbor News online</nobr></a>
-            archive. Look for the Update section in the Sunday, Feb. 11 edition.</p>
-        </td>
-    </tr>
-	<!-- MOBILE/DESKTOP SPECIFIC SPACER -->
-	<tr>
-		<td class="mobileOff" height="30" style="font-size:10px; line-height:1;">&nbsp;</td>
-		<td class="mobileOn desktopOff" height="20" style="font-size:10px; line-height:1;">&nbsp;</td>
-	</tr>
-</table>
-		<!-- SPACER -->
-		<tr>
-			<td height="20" style="font-size:10px; line-height:1;">&nbsp;</td>
-		</tr>
+			<!-- FULL WIDTH TEXT -->
+			<table class="mobile-320" role="presentation" width="640" cellpadding="0" cellspacing="0" border="0" bgcolor="#000000">
+				<tr>
+					<td align="center" valign="top">
+					<!-- ALIGNMENT TABLE - CHANGE width="" TO ADJUST DISPLAY WIDTH -->
+						<table class="mobile-300" role="presentation" width="600" cellpadding="0" cellspacing="0" border="0">
+							<tr>
+								<td align="center" valign="top">
+									<p class="lower-text-resize" style="font-family: Helvetica, sans-serif; font-weight: 400; font-size: 20px; line-height: 2; color: #ffffff;"><bolder> Find our <bold>Tax Prep Guide</bold></bolder> <br class="mobileOn desktopOff"> in
+									<a rel="noopener" href="https://enewsAA.mlive.com" target="_blank" style="color:#ffffff; text-decoration:underline;"><nobr>The Ann Arbor News online</nobr></a>
+									archive. Look for the Update section in the Sunday, Feb. 11 edition.</p>
+									
+								</td>
+							</tr>
+
+								<!-- SPACER -->
+								<tr>
+									<td class="mobileOff" height="30" style="font-size:10px; line-height:1;">&nbsp;</td>
+									<td class="mobileOn desktopOff" height="70" style="font-size:10px; line-height:1;">&nbsp;</td>
+								</tr>
+									</tr>
+						</table>
 </td>
 </tr>
 </table>
